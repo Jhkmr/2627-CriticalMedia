@@ -206,6 +206,7 @@ a {
     
     color: var(--text-color-primary);
     display: grid;
+    flex-direction: row;
     grid-template-columns: subgrid;
     transform: skewX(20deg);
 }
