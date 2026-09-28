@@ -67,12 +67,6 @@ a {
     cursor: pointer;
 }
 
-/* .scroll {
-    overflow-y: scroll;
-    height: 100%;
-    width: 100%;
-} */
-
 
 .textPrimary{
     font-family: var(--font-family-primary);
@@ -101,7 +95,6 @@ a {
     grid-template-columns: 10% 90%;
 }
 
-/* Let the number and title inside each link stay in the contents grid */
 .contents a {
     display: contents;
 }
@@ -128,7 +121,6 @@ a {
 
 .alpha {
     grid-column: 1 / span 10;
-    /* Match the html margin so a jumped-to section sits where section 1 does on load */
     scroll-margin-top: 10px;
 }
 
@@ -289,6 +281,9 @@ a {
     }
     .four {
     grid-column: 1 / span 12;
+    }
+    .one{
+        scroll-margin-top: 100px;
     }
     .alpha {
         grid-column: 1 / span 12;
