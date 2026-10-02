@@ -119,6 +119,17 @@ a {
     text-align: end;
 }
 
+.contact{
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    font-family: var(--font-family-secondary);
+    font-size: var(--font-size-secondary);
+    color: var(--text-color-secondary);
+}
+
 .alpha {
     grid-column: 1 / span 10;
     scroll-margin-top: 10px;
