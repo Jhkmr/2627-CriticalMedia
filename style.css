@@ -20,7 +20,7 @@
     --letter-spacing-secondary: 0em;
     --text-color-primary: #000000;
     --text-color-secondary: #9a9a9a;
-    --text-color-active: #8efa30;
+    --text-color-active: #ff1010;
     --background-color: #f4f4f4;
     --margin-large: 50px;
     --margin-small: 15px;
@@ -256,8 +256,10 @@ a {
 }
 
 .active {
-    text-emphasis: "x" var(--text-color-active);
-    text-emphasis-position: under;
+    /* text-emphasis: "^" var(--text-color-active);
+    text-emphasis-position: under; */
+    color: var(--text-color-primary);
+    transform: skewX(-20deg);
 }
 
 
